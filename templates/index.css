@@ -1,0 +1,32 @@
+.my-form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Set label color */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Set input border color */
+    border-radius: 3px; /* Add rounded corners to the input */
+    color: #555; /* Set input text color */
+}
+
+input[type="submit"] {
+    background-color: #007bff; /* Set button background color */
+    color: #fff; /* Set button text color */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 3px; /* Add rounded corners to the button */
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Set button background color on hover */
+}

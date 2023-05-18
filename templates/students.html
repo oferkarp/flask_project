@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enrolled Students</title>
+</head>
+<body>
+    {% if students == ["error"] %}
+        <h1>Login Error</h1>
+        <p>{{ students[0] }}</p>
+    {% else %}
+        <h1>Enrolled Students</h1>
+        <!-- Display the list of enrolled students -->
+        <ul>
+            {% for student in students %}
+                <li>{{ student.name }} - {{ student.phone_number }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+</html>
